@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica.</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <p>
+        <picture>
+            <source media="(max-width: 750px )" srcset="imagens/imagem-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+            <img src="imagens/imagem-g.png" alt="Imagens flexíveis">
+        </picture>
+    </p>
+    
+    <br>
+    <p>Notas:</p> 
+    <p>Utilizamos a Tag <strong>'picture'</strong>. Ela se parece com a tag 'img', tem um img dentro dela mas nos permite adicionar mais de um source.</p>
+    <p>Deixar as imagens flexíveis para melhorar a experiência do usuário é importante para que não aumente a taxa de <strong>Bounce rate</strong> (taxa de rejeição), o site não seja visto como ruim, e continue sendo indicado para mais usuários pelo Google.
+    </p>
+    <p>Há uma ordem a ser seguida para que a flexibilidade funcione, as menores imagens devem vir primeiro dentro da tag picture.</p>
+
+    <hr>
+    <br>
+
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/two-of-us.mp3.mp3" type="audio/mpeg">
+        <source src="midia/two-of-us.mp3.ogg" type="audio/ogg">
+        <source src="midia/two-of-us.mp3.wav" type="audio/wav">
+        <p>Infezmente seu navegador não consegue reproduzir áudios. <a href="midia/two-of-us.mp3.mp3">Clique aqui para baixar o aqrquivo em mp3.</a></p>
+    </audio>
+
+    <br>
+    <p>Notas:</p>
+    <p>Usamos a Tag <strong>'audio'</strong></p>
+
+    <p>Existem algumas midiatypes, e a ordem em que os sources são organizados é muito importante. Quando organizado na ordem mp3 > ogg > wav, ele primeiro tentará carregar em mp3, em seguida ogg e por ultimo wav (wav é o menos recomendado pois o arquivo se torna muito mais pesado).</p>
+
+    <p><strong>Funções 'preload':</strong> 
+    <li>Auto = só considera o site como carregado quando o áudio termina de carregar.
+    <li>Metadata = carrega algumas informações do arquivo.
+    <li>None = não carrega nada até que o usuário clique em play nos controles.
+    </p>
+</body>
+</html>
