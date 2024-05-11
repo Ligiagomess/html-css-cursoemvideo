@@ -28,9 +28,13 @@ body {
 h2 {
     color: #050502;
 }
-.modulos {
+.exercicios a {
+    color: black;
     font-weight: bold;
-    font-size: 25px;
+}
+.desafios a {
+    color: #030303;
+    font-weight: bold;
 }
 .rodape {
     background-color: #fcfcca;
