@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .cabecalho {
-    background-color: #f8f8d8;
+    background-color: #f7f7e0;
     color: #070707;
     text-align: center;
     padding: 30px 30px;
@@ -37,7 +37,7 @@ h2 {
     font-weight: bold;
 }
 .rodape {
-    background-color: #f8f8d8;
+    background-color: #f7f7e0;
     color: #030303;
     font-size: 20px;
     text-align: center;
