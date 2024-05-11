@@ -28,6 +28,9 @@ body {
 h2 {
     color: #050502;
 }
+li {
+    font-size: 16px;
+}
 .exercicios a {
     color: black;
     font-weight: bold;
