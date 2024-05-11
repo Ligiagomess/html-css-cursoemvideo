@@ -7,23 +7,35 @@ body {
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
-header {
+.cabecalho {
     background-color: #fcfcca;
     color: #070707;
-
     text-align: center;
-    padding: 15px 30px;
+    padding: 30px 30px;
+    font-weight: bold;
 }
-
+.cabecalho .botao a{
+    background-color: none;
+    font-size: 15px;
+}
+.cabecalho .botao a:hover{
+  background-color: #e9e9b9;
+  border-radius: 50px;
+  transition: 0.3s;
+  transform: scale(1.1);
+  padding: 5px 10px;
+}
 h2 {
-    color: #fdfdfd;
+    color: #050502;
 }
 .modulos {
     font-weight: bold;
+    font-size: 25px;
 }
 .rodape {
     background-color: #fcfcca;
-    color: #070707;
+    color: #030303;
+    font-size: 20px;
     text-align: center;
     padding: 15px 30px;
 }
