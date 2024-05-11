@@ -3,14 +3,13 @@
 body {
     background-color: #ffffff;
     color: #030303;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
 header {
-    background-color: #fcfcca;
+    background-color: #f8f8d8;
     color: #070707;
-
     text-align: center;
     padding: 15px 30px;
 }
@@ -22,7 +21,7 @@ h2 {
     font-weight: bold;
 }
 .rodape {
-    background-color: #fcfcca;
+    background-color: #f8f8d8;
     color: #070707;
     text-align: center;
     padding: 15px 30px;

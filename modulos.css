@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .cabecalho {
-    background-color: #fcfcca;
+    background-color: #f8f8d8;
     color: #070707;
     text-align: center;
     padding: 30px 30px;
@@ -19,7 +19,7 @@ body {
     font-size: 15px;
 }
 .cabecalho .botao a:hover{
-  background-color: #e9e9b9;
+  background-color: #e9e9c0;
   border-radius: 50px;
   transition: 0.3s;
   transform: scale(1.1);
@@ -37,7 +37,7 @@ h2 {
     font-weight: bold;
 }
 .rodape {
-    background-color: #fcfcca;
+    background-color: #f8f8d8;
     color: #030303;
     font-size: 20px;
     text-align: center;
